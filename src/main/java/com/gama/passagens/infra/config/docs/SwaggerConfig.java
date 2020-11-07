@@ -49,7 +49,7 @@ public class SwaggerConfig {
 		 
 		ApiInfoBuilder apiInfoBuilder = new ApiInfoBuilder();
  
-		apiInfoBuilder.title("passagens-api");
+		apiInfoBuilder.title("Karkara-api");
 		apiInfoBuilder.description("API Rest para gerenciamento de Passagens");
 		apiInfoBuilder.version("1.0");
 		apiInfoBuilder.termsOfServiceUrl("Termo de uso: Uso para estudos ...");
@@ -57,17 +57,19 @@ public class SwaggerConfig {
 		apiInfoBuilder.licenseUrl("http://www.gama.com.br");
 		apiInfoBuilder.contact(this.contato());
 		
-		String contato = "Gleyson Telefeone \\ Jose \\ Maria";
+		String contato = "Aleff \\ Joao \\ Wendell";
 		return apiInfoBuilder;
  
 	}
 	private Contact contato() {
+		String nomes= String.format("%s\n%s\n%s","Aleff","João","Wendell");
 		Contact contact = new Contact(
+				nomes,
 				"Seu Nome /\\ Meu Nome",
-				"Se email / Meu E-mail",
-				"Seu site");
+				"Se email / Meu E-mail");
 		 
 		 return contact;
+		 
 	}
 	 
 }
