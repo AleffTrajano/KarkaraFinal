@@ -56,17 +56,16 @@ public class SwaggerConfig {
 		apiInfoBuilder.license("Licença - Open Source");
 		apiInfoBuilder.licenseUrl("http://www.gama.com.br");
 		apiInfoBuilder.contact(this.contato());
-		
-		String contato = "Aleff \\ Joao \\ Wendell";
+
 		return apiInfoBuilder;
  
 	}
 	private Contact contato() {
-		String nomes= String.format("%s\n%s\n%s","Aleff","João","Wendell");
+		String nomes= "Aleff, João, Wendell";
 		Contact contact = new Contact(
 				nomes,
-				"Seu Nome /\\ Meu Nome",
-				"Se email / Meu E-mail");
+				"João",
+				"Wendel");
 		 
 		 return contact;
 		 

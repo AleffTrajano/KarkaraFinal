@@ -36,7 +36,7 @@ Desde já expressamos a nossa profunda gratidão a cada palavra, cada ajuda e a 
 - A Gama por nos ter proporcionado grandes momentos de aprendizado. 🙏
 - Aos professores Marcos e Gleyson por nos guiarem nessa jornada, compartilhando vossas experiências e mostrando todo o potencial que podemos alcançar. E por fim e não menos importante, a Kai que a todo momento estava cuidando de nós, com todo feedback e sempre se mostrando solicita a nós. 🙏
 
-## Instuções
+## Instruções
 
 Fizemos o deploy da aplicação no heroku, estamos utilizando o Swagger para gerar nossa documentação listando todos os endpoints e guiar para o consumo da mesma.
  
