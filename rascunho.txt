@@ -1,0 +1,110 @@
+1.	Data Access
+2.	1.10		Testes
+3.	
+4.	O que testar, por que testar, como testar?
+5.	Testes unitários, interface, aceitação
+6.	Test Driven Development (TDD)
+
+
+
+7.	MVC Application
+8.	Scopes e Autowiring
+9.	Bean (Configuração e Ciclo de Vida)
+10.	Eureka / Zulu
+11.	Circuit Breakers
+12.	Messaging
+
+
+TDD:
+https://www.youtube.com/watch?v=4VmbETu-dcA&feature=emb_title
+
+
+https://www.devmedia.com.br/java-operadores-de-atribuicao-aritmeticos-relacionais-e-logicos/38289
+
+SSD de 128GB PCle NVMe M.2 
+
+
+silvana.lima@fastpays.com.br
+
+Programação não bloqueantes, paralelizada de baixa latencia
+
+
+Geralmente as primeiras palavras que ouvimos em um curso de programação são: um programa é um conjunto de instruções lógicas que, quando executadas, produzem algum resultado. Com isso em mente, ao começar a criar as primeiros linhas de código, logo você notará que é comum receber dados do usuário, prover alguma lógica para processá-los e então apresentar o resultado desse processamento. 
+
+
+
+ele já ta configurado, segui a documentação do docker, aparece o erro "Unable to load authentication plugin 'caching_sha2_password'."
+to pesquisando aqui
+
+https://stackoverflow.com/questions/50387952/how-to-resolve-unable-to-load-authentication-plugin-caching-sha2-password-issu
+
+
+ https://zoom.us/j/96237604454
+ 
+ https://mkyong.com/spring-boot/spring-rest-error-handling-example/
+ 
+ https://docs.microsoft.com/pt-br/azure/devops-project/azure-devops-project-github
+
+ 
+ 
+
+		
+		
+		{
+  "cpfCnpj": "0047",
+  "email": "gleysondev@gmail.com",
+  "nome": "GLEYSON",
+  "numeroDocumento": "999",
+  "telefone": {
+    "ddd": 11,
+    "numero": 98798798
+  },
+  "telefoneEmergencia": {
+    "ddd": 99,
+    "nomeContato": "TESTE",
+    "numero": 99898
+  },
+  "tipoDocumento": "RG",
+  "usuario": {
+    "senha": "123123"
+  }
+}
+
+
+{
+  "originLocationCode" : "NYC",
+	"destinationLocationCode" : "PAR",
+	"departureDate" : "2020-11-16" ,
+	"returnDate" : "2020-11-28",
+	"adults" : "1",
+"max":"10"
+}
+
+
+{
+  "cpfCnpj": "1234",
+  "dataNascimento": "1990-10-10",
+  "documento": {
+    "numeroDocumento": "123123",
+    "tipoDocumento": "PASSPORT"
+  },
+  "email": "viajante@gmail.com",
+  "login": "test",
+  "senha": "test",
+  "nome": "VIAJANTE TEST",
+  "sexo": "M",
+  "telefone": {
+    "ddd": 11,
+    "nomeContato": "teste"
+    "numero": 89980998
+  }
+}
+
+
+
+Params p = Params.with("originLocationCode", "NYC")
+        .and("destinationLocationCode", "MAD")
+        .and("departureDate", "2020-11-05")
+        .and("returnDate", "2020-11-08")
+        .and("adults", 1)
+        .and("max", 3);

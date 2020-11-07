@@ -1,0 +1,228 @@
+{
+  "data": {
+      "type": "flight-offers-pricing",
+      "flightOffers": [
+      {
+        "type": "flight-offer",
+        "id": "1",
+        "source": "GDS",
+        "instantTicketingRequired": false,
+        "nonHomogeneous": false,
+        "paymentCardRequired": false,
+        "lastTicketingDate": "2020-11-11",
+        "itineraries": [
+          {
+            "segments": [
+              {
+                "departure": {
+                  "iataCode": "EWR",
+                  "terminal": "B",
+                  "at": "2020-11-16T23:55:00"
+                },
+                "arrival": {
+                  "iataCode": "ORY",
+                  "terminal": "4",
+                  "at": "2020-11-17T13:05:00"
+                },
+                "carrierCode": "TX",
+                "number": "6721",
+                "aircraft": {
+                  "code": "359"
+                },
+                "operating": {
+                  "carrierCode": "BF"
+                },
+                "duration": "PT7H10M",
+                "id": "1",
+                "numberOfStops": 0,
+                "co2Emissions": [
+                  {
+                    "weight": 308,
+                    "weightUnit": "KG",
+                    "cabin": "ECONOMY"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "segments": [
+              {
+                "departure": {
+                  "iataCode": "ORY",
+                  "terminal": "4",
+                  "at": "2020-11-28T19:35:00"
+                },
+                "arrival": {
+                  "iataCode": "EWR",
+                  "terminal": "B",
+                  "at": "2020-11-28T22:00:00"
+                },
+                "carrierCode": "TX",
+                "number": "6720",
+                "aircraft": {
+                  "code": "359"
+                },
+                "operating": {
+                  "carrierCode": "BF"
+                },
+                "duration": "PT8H25M",
+                "id": "2",
+                "numberOfStops": 0,
+                "co2Emissions": [
+                  {
+                    "weight": 308,
+                    "weightUnit": "KG",
+                    "cabin": "ECONOMY"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "price": {
+          "currency": "BRL",
+          "total": "1646.97",
+          "base": "582.95",
+          "fees": [
+            {
+              "amount": "0.00",
+              "type": "SUPPLIER"
+            },
+            {
+              "amount": "0.00",
+              "type": "TICKETING"
+            },
+            {
+              "amount": "0.00",
+              "type": "FORM_OF_PAYMENT"
+            }
+          ],
+          "grandTotal": "1646.97",
+          "billingCurrency": "BRL"
+        },
+        "pricingOptions": {
+          "fareType": [
+            "PUBLISHED"
+          ],
+          "includedCheckedBagsOnly": false
+        },
+        "validatingAirlineCodes": [
+          "TX"
+        ],
+        "travelerPricings": [
+          {
+            "travelerId": "1",
+            "fareOption": "STANDARD",
+            "travelerType": "ADULT",
+            "price": {
+              "currency": "BRL",
+              "total": "1646.97",
+              "base": "582.95",
+              "taxes": [
+                {
+                  "amount": "32.32",
+                  "code": "AY"
+                },
+                {
+                  "amount": "135.50",
+                  "code": "FR"
+                },
+                {
+                  "amount": "30.52",
+                  "code": "IZ"
+                },
+                {
+                  "amount": "20.30",
+                  "code": "O4"
+                },
+                {
+                  "amount": "180.11",
+                  "code": "QX"
+                },
+                {
+                  "amount": "22.85",
+                  "code": "XA"
+                },
+                {
+                  "amount": "25.97",
+                  "code": "XF"
+                },
+                {
+                  "amount": "40.40",
+                  "code": "XY"
+                },
+                {
+                  "amount": "34.57",
+                  "code": "YC"
+                },
+                {
+                  "amount": "541.48",
+                  "code": "YQ"
+                }
+              ],
+              "refundableTaxes": "496.57"
+            },
+            "fareDetailsBySegment": [
+              {
+                "segmentId": "1",
+                "cabin": "ECONOMY",
+                "fareBasis": "ULBCRTUS",
+                "brandedFare": "EBASIC",
+                "class": "U",
+                "includedCheckedBags": {
+                  "quantity": 0
+                }
+              },
+              {
+                "segmentId": "2",
+                "cabin": "ECONOMY",
+                "fareBasis": "ULBCRTUS",
+                "brandedFare": "EBASIC",
+                "class": "U",
+                "includedCheckedBags": {
+                  "quantity": 0
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+      "travelers": [
+        {
+          "id": "1",
+          "dateOfBirth": "1982-01-16",
+          "name": {
+            "firstName": "JORGE",
+            "lastName": "GONZALES"
+          },
+          "gender": "MALE",
+          "contact": {
+            "emailAddress": "jorge.gonzales833@telefonica.es",
+            "phones": [
+              {
+                "deviceType": "MOBILE",
+                "countryCallingCode": "34",
+                "number": "480080076"
+              }
+            ]
+          },
+          "documents": [
+            {
+              "documentType": "PASSPORT",
+              "birthPlace": "Madrid",
+              "issuanceLocation": "Madrid",
+              "issuanceDate": "2015-04-14",
+              "number": "00000000",
+              "expiryDate": "2025-04-14",
+              "issuanceCountry": "ES",
+              "validityCountry": "ES",
+              "nationality": "ES",
+              "holder": true
+            }
+          ]
+        }
+      ]
+    }
+}

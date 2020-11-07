@@ -1,0 +1,91 @@
+{
+	"amount": 10000,
+	"refunded_amount": 0,
+	"authorized_amount": 0,
+	"paid_amount": 0,
+	"installments": 1,
+	"cost": 0,
+	"acquirer_response_code": "1011",
+	"tid": "10287047",
+	"nsu": "10287047",
+	"referer": "api_key",
+	"ip": "179.228.250.123",
+	"acquirer_name": "pagarme",
+	"payment_method": "credit_card",
+	"capture_method": "ecommerce",
+	"status": "refused",
+	"status_reason": "acquirer",
+	"date_updated": "2020-11-06T22:31:11.294-0200",
+	"customer": {
+		"document_type": "cpf",
+		"name": "Phineas Flynn",
+		"email": "phineas@threestatearea.com",
+		"external_id": "1001",
+		"type": "individual",
+		"country": "br",
+		"documents": [
+			{
+				"type": "cpf",
+				"number": "77551442758",
+				"id": "doc_ckh6ycjmf0cc70j9tahasm33q"
+			}
+		],
+		"phone_numbers": [
+			"+5511982657575"
+		],
+		"birthday": "1999-07-09",
+		"id": 4040851,
+		"date_created": "2020-11-06T22:31:10.921-0200"
+	},
+	"card": {
+		"brand": "visa",
+		"holder_name": "Elton Douglas",
+		"first_digits": "424272",
+		"last_digits": "4744",
+		"fingerprint": "ckh46wdvc2q8v0k834zi66guw",
+		"country": "UNITED STATES OF AMERICA",
+		"valid": false,
+		"expiration_date": "0420",
+		"date_updated": "2020-11-06T22:31:11.338-0200",
+		"id": "card_ckh6ycjny0cc80j9t2nvxc0c9",
+		"date_created": "2020-11-06T22:31:10.990-0200"
+	},
+	"metadata": {
+		
+	},
+	"antifraud_metadata": {
+		
+	},
+	"shipping": {
+		"name": "Phineas Flynn",
+		"fee": 3200,
+		"address": {
+			"street": "Rua Rio Jari",
+			"street_number": "7",
+			"neighborhood": "Parque Miami",
+			"city": "Santo Andre",
+			"state": "sp",
+			"zipcode": "09133180",
+			"country": "br",
+			"id": 3598779
+		},
+		"id": 1069423
+	},
+	"billing": {
+		"name": "Phineas Flynn",
+		"address": {
+			"street": "Rua Rio Jari",
+			"street_number": "7",
+			"neighborhood": "Parque Miami",
+			"city": "Santo Andre",
+			"state": "sp",
+			"zipcode": "09133180",
+			"country": "br",
+			"id": 3598778
+		},
+		"id": 1686144
+	},
+	"items": [],
+	"id": 10287047,
+	"date_created": "2020-11-06T22:31:11.009-0200"
+}
