@@ -9,11 +9,11 @@
 		<version>2.3.5.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.gama</groupId>
-	<artifactId>passagens-api</artifactId>
+	<groupId>com.gama.karkara</groupId>
+	<artifactId>Karkara-api</artifactId>
 	<version>1.0</version>
-	<name>passagens-api</name>
-	<description>API Para Gerenciamento de Passagens Aereas</description>
+	<name>Karkara-api</name>
+	<description>APIRest Para reserva e compra de passagens aéreas</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -64,6 +64,7 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<scope>runtime</scope>
 		</dependency>
+		
 		<dependency>
 			<groupId>io.jsonwebtoken</groupId>
 			<artifactId>jjwt</artifactId>

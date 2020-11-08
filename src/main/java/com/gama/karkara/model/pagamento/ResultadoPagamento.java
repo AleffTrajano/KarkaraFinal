@@ -1,4 +1,4 @@
-package com.accenture.gama.viajei.model.pagamento;
+package com.gama.karkara.model.pagamento;
 
 public class ResultadoPagamento {
 	

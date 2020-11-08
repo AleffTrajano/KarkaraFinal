@@ -1,4 +1,4 @@
-package com.accenture.gama.viajei.model.pagamento;
+package com.gama.karkara.model.pagamento;
 
 import javax.validation.constraints.NotNull;
 
@@ -7,11 +7,11 @@ public class DadosCartao {
 
 	@NotNull(message = "O nome do titular deve ser preenchido")
 	private String nomeTitular;
-	@NotNull(message = "O número do cartão deve ser preenchido")
+	@NotNull(message = "O nï¿½mero do cartï¿½o deve ser preenchido")
 	private String numeroCartao;
-	@NotNull(message = "O código de segurança do cartão deve ser preenchido")
+	@NotNull(message = "O cï¿½digo de seguranï¿½a do cartï¿½o deve ser preenchido")
 	private String cvvCartao;
-	@NotNull(message = "A data de expiração do cartão deve ser preenchida")
+	@NotNull(message = "A data de expiraï¿½ï¿½o do cartï¿½o deve ser preenchida")
 	private String dataExpiracao;
 
 	public String getNomeTitular() {

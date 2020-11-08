@@ -8,7 +8,6 @@ import org.springframework.context.annotation.Bean;
 import com.gama.passagens.project.start.Start;
 
 @SpringBootApplication
-//@EnableFeignClients
 public class PassagensApiApplication{
 
 	public static void main(String[] args) {
@@ -19,7 +18,6 @@ public class PassagensApiApplication{
     public CommandLineRunner run( Start st) {
         return args -> {
         	st.init();
-        	
         };
     }
 }

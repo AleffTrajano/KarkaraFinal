@@ -1,11 +1,11 @@
-package com.accenture.gama.viajei.model.pagamento;
+package com.gama.karkara.model.pagamento;
 
 import javax.validation.Valid;
 import javax.validation.constraints.NotNull;
 
 public class DadosPagamento {
 
-	@NotNull(message = "O número do pedido deve ser preenchido")
+	@NotNull(message = "O nï¿½mero do pedido deve ser preenchido")
 	private Integer numPedido;
 	@Valid
 	private DadosCartao dadosCartao;

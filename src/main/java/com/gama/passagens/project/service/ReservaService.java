@@ -7,7 +7,7 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.accenture.gama.viajei.model.pagamento.PagarmeService;
+import com.gama.karkara.model.pagamento.PagarmeService;
 import com.gama.passagens.amadeus.order.FlightOrderService;
 import com.gama.passagens.amadeus.order.Order;
 import com.gama.passagens.infra.exceptions.BusinessException;

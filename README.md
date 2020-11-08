@@ -34,7 +34,7 @@ Desde já expressamos a nossa profunda gratidão a cada palavra, cada ajuda e a 
 ## Agradecimentos especias
 - Primeiramente a Accenture por ver em nós a capacidade de se mostrar solicita com essa oportunidade. 🙏
 - A Gama por nos ter proporcionado grandes momentos de aprendizado. 🙏
-- Aos professores Marcos e Gleyson por nos guiarem nessa jornada, compartilhando vossas experiências e mostrando todo o potencial que podemos alcançar. E por fim e não menos importante, a Kai que a todo momento estava cuidando de nós, com todo feedback e sempre se mostrando solicita a nós. 🙏
+- Aos professores Marcos(<i>Melhor que isso, só bem feito</i>) e Gleyson(<i>ihuuuu</i>) por nos guiarem nessa jornada, compartilhando vossas experiências e mostrando todo o potencial que podemos alcançar. E por fim e não menos importante, a Kai que a todo momento estava cuidando de nós, com todo feedback e sempre se mostrando solicita a nós. 🙏
 
 ## Instruções
 
